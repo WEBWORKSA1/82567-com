@@ -21,6 +21,6 @@ Custom domain: add `82567.com` in Settings → Pages (this creates `CNAME`), the
 AdSense requires `ads.txt` at the root of the custom domain, so connect 82567.com before applying.
 
 ## Auto-refresh
-`.github/workflows/refresh.yml` runs daily: refreshes `data/daily.json` (Prime/Number of the Day) and `sitemap.xml` `<lastmod>` dates, then commits — keeping the site fresh for crawlers.
+`.github/workflows/refresh.yml` runs daily (03:17 UTC), on every push to `main`, and on demand: it refreshes `data/daily.json` (Number of the Day) and `sitemap.xml` `<lastmod>`, commits, then mirrors `main` to `gh-pages` (the branch Pages currently serves).
 
 See `PROMPTS.md` for the phase-wise build prompts and `RESEARCH.md` for the niche research.
