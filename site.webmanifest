@@ -1,0 +1,9 @@
+{
+  "name": "82567 Prime Calculators",
+  "short_name": "82567",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0d0f1a",
+  "theme_color": "#7c5cff",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
