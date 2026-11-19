@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guides — Margin vs Markup, AI Costs, Compound Interest, Break-Even | 82567</title>
+<meta name="description" content="Plain-English guides with worked examples: margin vs markup, estimating AI/LLM costs, compound interest, break-even, LTV:CAC, mortgages and startup runway.">
+<link rel="canonical" href="https://82567.com/guides.html">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<meta name="theme-color" content="#7c5cff">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="hdr"></div>
+<main class="sec"><div class="wrap article">
+  <span class="kicker">Guides</span>
+  <h1>The math behind better decisions</h1>
+  <p class="muted">Short, original explainers with worked examples. Each links to the calculator that does the work for you.</p>
+  <nav class="toc"><a href="#margin-vs-markup">Margin vs markup</a><a href="#llm-costs">AI / LLM costs</a><a href="#compound">Compound interest</a><a href="#break-even">Break-even</a><a href="#ltv-cac">LTV : CAC</a><a href="#mortgage">Mortgages</a><a href="#runway">Runway</a></nav>
+
+  <h2 id="margin-vs-markup">Margin vs. markup: the pricing mistake that eats profit</h2>
+  <p>Markup is profit measured against <em>cost</em>. Margin is profit measured against <em>price</em>. They describe the same dollars but produce different percentages, and mixing them up is one of the most common reasons small businesses underprice.</p>
+  <p>Example: a product costs $60 and you add a 40% markup. Price = $84, profit = $24. Your margin is $24 ÷ $84 = <strong>28.6%</strong>, not 40%. If your plan assumed a 40% margin to cover rent and salaries, you are short by more than eleven points on every sale.</p>
+  <p>To hit a target margin <em>m</em>, price = cost ÷ (1 − m). For a 40% margin on a $60 cost: $60 ÷ 0.60 = $100. Use the <a href="calculators.html#price-from-margin">Price from Target Margin</a> and <a href="calculators.html#margin">Margin & Markup</a> calculators.</p>
+
+  <h2 id="llm-costs">How to estimate what an AI feature will really cost</h2>
+  <p>AI model APIs charge per token — roughly four characters of English text — with separate prices for input (what you send) and output (what the model writes). Output tokens usually cost several times more than input tokens, so long answers dominate the bill.</p>
+  <p>You need four numbers: requests per day, average input tokens, average output tokens, and the provider’s current price per million tokens for each. Cost per request = (input × input price + output × output price) ÷ 1,000,000. Then multiply by daily volume.</p>
+  <p>Three things push real costs above the estimate: system prompts and retrieved documents resent on every call; retries and tool calls that multiply requests; and conversation history that grows each turn. Prompt caching, shorter outputs and smaller models for simple steps are the usual levers. Model your scenario with the <a href="calculators.html#llm-cost">LLM API Cost Estimator</a> and weigh it against the time saved using <a href="calculators.html#ai-roi">AI Automation ROI</a>.</p>
+
+  <h2 id="compound">Compound interest, explained with one table</h2>
+  <p>Compound interest means you earn returns on your past returns. At 7% a year, $10,000 grows to about $19,700 in 10 years, $38,700 in 20 and $76,100 in 30. The last decade adds more than the first two combined — that is why starting early beats finding a slightly better rate.</p>
+  <div class="card"><div class="kv"><span>Years</span><b>Value of $10,000 at 7%</b></div><div class="kv"><span>10</span><b>≈ $19,672</b></div><div class="kv"><span>20</span><b>≈ $38,697</b></div><div class="kv"><span>30</span><b>≈ $76,123</b></div></div>
+  <p>The <strong>rule of 72</strong> is a shortcut: divide 72 by the annual rate to estimate doubling time (72 ÷ 7 ≈ 10.3 years). Try your own numbers in the <a href="calculators.html#compound">Compound Interest Calculator</a>.</p>
+
+  <h2 id="break-even">Break-even: the number every founder should know</h2>
+  <p>Break-even units = fixed costs ÷ (price − variable cost per unit). The denominator is the <em>contribution margin</em> — what each sale contributes toward rent, salaries and software. With $12,000 monthly fixed costs, a $49 price and $19 variable cost, you need 400 sales a month before earning a profit.</p>
+  <p>Raising price by $5 cuts break-even to about 343 units; cutting variable costs by $5 does the same. Small changes in contribution margin move break-even more than most people expect. Run it in the <a href="calculators.html#break-even">Break-Even Calculator</a>.</p>
+
+  <h2 id="ltv-cac">LTV : CAC — is growth actually profitable?</h2>
+  <p>Customer lifetime value (LTV) is the gross profit a customer generates before leaving: monthly revenue × gross margin ÷ monthly churn. Customer acquisition cost (CAC) is what you spend in marketing and sales to win one customer. A common benchmark is LTV at least three times CAC, with CAC recovered within 12 months.</p>
+  <p>If you pay $250 to acquire a customer paying $40 a month at 75% margin with 3% monthly churn, LTV is $1,000 and the ratio is 4:1 — healthy. Double churn to 6% and LTV halves to $500, a 2:1 ratio. Churn is usually the cheapest lever to pull. Check yours with the <a href="calculators.html#ltv-cac">LTV:CAC Calculator</a>.</p>
+
+  <h2 id="mortgage">Mortgages: what the monthly payment hides</h2>
+  <p>Early mortgage payments are mostly interest. On a $360,000 loan at 5.5% over 25 years, the principal-and-interest payment is about $2,211 a month and total interest exceeds $300,000. Property tax and insurance add to the true monthly cost.</p>
+  <p>Three levers reduce total interest: a larger down payment, a shorter amortization, and extra principal payments early in the term. The <a href="calculators.html#mortgage">Mortgage Calculator</a> shows the all-in payment and a balance chart.</p>
+
+  <h2 id="runway">Runway: how long until the money runs out?</h2>
+  <p>Runway is cash ÷ net monthly burn (expenses minus revenue). But revenue growth changes everything: a company burning $23,000 a month today may reach break-even before running out of cash if revenue grows fast enough. That state is often called “default alive.”</p>
+  <p>The <a href="calculators.html#runway">Startup Runway Calculator</a> projects month by month with growth, so you can see whether you need to raise, cut, or simply keep executing.</p>
+
+  <div class="cta-band" style="margin-top:40px"><div><h2>Want a professional to check your numbers?</h2><p>Get matched with a vetted specialist — free.</p></div><div><a class="btn" href="get-quote.html">Get expert help →</a></div></div>
+  <p class="muted" style="font-size:.85rem;margin-top:20px">Guides are general education, not individual financial, tax or legal advice. Figures are rounded illustrations.</p>
+</div></main>
+<div id="ftr"></div>
+<script src="js/calcs.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
