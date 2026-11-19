@@ -1,5 +1,7 @@
 # 82567.com — Prime Calculators for Money, Business, AI & Everyday Numbers
 
+**Repo:** WEBWORKSA1/82567-com · **Live:** https://webworksa1.github.io/82567-com/ (until 82567.com is connected)
+
 Static, dependency-free website (HTML + CSS + vanilla JS) built for GitHub Pages (free plan, `main` branch, root folder).
 
 **Concept:** 82,567 is a prime number — indivisible. The site is a hub of fast, private, client-side calculators (28 tools across Money, Business, AI and Everyday) plus a Number Explorer for any integer, original guides, curated videos, a high-converting expert-help lead funnel, and a support hub (donations, sponsorship, advertising, careers, contests).
